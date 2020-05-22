@@ -1,0 +1,267 @@
+@import url("https://fonts.googleapis.com/css?family=Bungee|Hind|PT+Sans|Pacifico|Poppins|Lobster");
+
+:root {
+  --tomato-color: #ff433d;
+  --yellow-color: #ffb347;
+  --megenta-color: rgba(168, 2, 168, 0.897);
+  --lime-color: rgba(8, 248, 80, 0.932);
+  --light-orange: #ff6215;
+  --poppins: "Poppins", sans-serif;
+  --bungee: "Bungee", cursive;
+  --lobster: "Lobster", cursive;
+  --pacifico: "Pacifico", cursive;
+}
+
+
+.navbar {
+  background-color: transparent !important;
+}
+.navbar-brand {
+  padding-left: 30px;
+  font-family: var(--lobster);
+  font-size: 2rem;
+  color: var(--yellow-color);
+}
+
+.nav-item {
+  padding: 0em 1.3em;
+}
+.nav-link {
+  font-family: var(--poppins);
+  color: whitesmoke;
+  font-size: 1.1em;
+}
+.nav-link:hover {
+  color: var(--light-orange);
+}
+
+.heading .h1 {
+  font-family: 'Roboto', sans-serif;
+  font-style: bold;
+  text-transform: uppercase;
+  font-size: 7vmin;
+  padding-top: 28vmin;
+  color: var(--yellow-color);
+}
+
+.heading .h1 + span {
+  color: var(--yellow-color);
+}
+
+.heading .p {
+  padding: 0em 13vmin;
+  color: rgb(70, 65, 65);
+  font-size: 3.5vmin;
+  font-family: 'Roboto', sans-serif;
+}
+
+.heading  .btn1,
+.btn2 {
+  padding: 1vmin 3vmin;
+  margin: 2vmin 2.5vmin;
+  background: transparent;
+  font-size: 2.5vmin;
+  font-family: var(--poppins);
+  color: black;
+  border: 1px solid black;
+}
+
+.heading > .btn2 {
+  background-color: transparent;
+  border: 1px solid black;
+  color: black
+}
+.heading > .btn1:hover,
+.btn2:hover {
+  border: 1px solid black;
+  background-color: white;
+}
+
+.heading {
+  margin-bottom: 45vmin;
+}
+
+
+.section-1{
+    background-image: url(../img/beach.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+
+.section-2 h1 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 6vmin;
+  text-align: center;
+  font-weight: 500;
+  font-style: bold;
+  padding-top: 5rem;
+}
+.section-2 .about-1{
+  width: 50%;
+}
+.section-2 .about-1 p{
+  padding-left: 4rem;
+  padding-right: 4rem;
+  font-size: 1.5rem;
+  font-weight: 400;
+  padding-top: 2rem;
+}
+.section-2 .about-2{
+  padding-top: 1.5rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  padding-bottom: 4rem;
+}
+.section-2 .about-2 img{
+  border-radius: 2%;
+}
+
+.section_2 .p {
+  padding: 1.4vmin 13vmin;
+  font-size: 2.6vmin;
+  font-family: var(--poppins);
+}
+
+.section_2 div:last-child {
+  padding-bottom: 5vmin;
+}
+.section_3 {
+  color: black;
+  margin-bottom: 4vmin;
+}
+
+.section_3 .projects h1 {
+  font-family: 'Roboto', sans-serif;
+  text-transform: uppercase;
+  font-size: 6vmin;
+  color: #888888;
+  padding-top: 7vmin;
+}
+
+.section_3 .projects p {
+  font-family: var(--poppins);
+  padding: 3vmin 0;
+  color: #888888;
+  font-size: 3vmin;
+}
+.section_3 .images .flex-fill {
+  overflow: hidden;
+  padding: 2rem;
+}
+.section_3 .images .flex-fill img {
+  width: 210%;
+  transition: 0.4s ease-in;
+}
+
+.section_3 .images .flex-fill img:hover {
+  width: 180%;
+}
+
+/* section 4 */
+
+.section_4 .services h1 {
+  font-family: var(--bungee);
+  font-size: 2em;
+  padding: 2em 0 0.6em 0;
+}
+.section_4 .services > p {
+  font-size: 1em;
+  font-family: var(--poppins);
+}
+.section_4 .services .cards {
+  padding: 3em;
+  padding-top: 0em;
+}
+.section_4 .services .cards i {
+  padding: 1em;
+}
+.section_4 .services .cards h3 {
+  font-family: var(--bungee);
+}
+.section_4 .services .cards > p {
+  padding: 0.4em;
+}
+
+.section_4 .services .cards i,
+.cards h3 {
+  color: var(--tomato-color);
+}
+.section_4 {
+  margin-bottom: 5em;
+}
+
+/* section 5 */
+.section_5 div h1 {
+  padding: 8vmin 0em;
+}
+
+.section_5 div p {
+  font-size: 3vmin;
+  padding: 0 2vmin;
+}
+
+.section_5 .Team h1,
+.section_5 .Team p {
+  color: #888888;
+  font-family: var(--poppins);
+}
+
+.section_5 .Team .member {
+  margin-top: 10vmin;
+}
+.section_5 .Team .member img {
+  width: 20%;
+  border-radius: 50%;
+}
+.section_5 .Team .member img {
+  border-radius: 50%;
+}
+.section_5 .Team .member .details {
+  padding: 1vmin;
+}
+.section_5 .Team .member .details h4 {
+  color: #888888;
+}
+.section_5 .Team .member .details > * {
+  color: #888888;
+  font-family: var(--poppins);
+}
+
+.Team {
+  padding-bottom: 10vmin;
+}
+footer .icon{
+  float: right;
+  
+
+}
+footer .icon i{
+  font-size: 1.5rem;
+  padding-left: 1rem;
+}
+footer .icon i:hover{
+  color: blue;
+}
+
+@media only screen and (max-width: 768px) {
+ 
+  .section-1 {
+   
+    background-size: cover;
+  }
+ 
+  .section_2 {
+    margin-top: 5vmin;
+  }
+}
+
+@media only screen and (max-width: 425px) {
+}
+
+@media only screen and (max-width: 320px) {
+  .section_4 .services {
+    margin-top: 330vmin;
+  }
+}
